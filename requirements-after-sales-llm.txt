@@ -1,0 +1,6 @@
+-r requirements-after-sales.txt
+langchain==1.2.10
+langchain-core==1.2.16
+langchain-openai==1.1.10
+pydantic-settings==2.11.0
+python-dotenv==1.0.1

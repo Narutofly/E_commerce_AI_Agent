@@ -1,0 +1,45 @@
+backend/after_sales/data/
+.venv/
+__pycache__/
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite-sales/
+.env.local
+*.log
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# IDE, agent state and generated files
+.idea/
+.ai/
+.jbeval/
+.langgraph_api/
+.pytest-run-*/
+.ruff_cache/
+*.py[cod]
+*.tsbuildinfo
+tmp/
+output/
+
+# Downloaded model assets and local databases
+backend/models/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+
+# Unrelated learning exercises (contain local API credentials)
+review/
+understant_sse/
+
+# Personal/generated sample documents
+*.docx
+samples/*.pdf
+backend/agents/resume/resume.json
